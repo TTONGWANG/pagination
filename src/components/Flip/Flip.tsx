@@ -19,6 +19,7 @@ const Flip = () => {
     setCurrentPage(page);
   };
 
+  console.log('aa')
   return (
     <div>
       {paginatedItems.map((item, index) => (
